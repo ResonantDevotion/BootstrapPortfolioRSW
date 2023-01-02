@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+
+/* Nav */
+header{
+    margin: 0px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey !important;
+}
+
+.h1 {
+    position: relative;
+    left: 0pc;
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+    color: #008000;
+    text-shadow: -1px 1px 4px white;
+}
+
+#navList{
+    border: 2px solid black;
+}
+
+.navList{
+    color: #008000 !important;
+    border-bottom: 2px solid #008000;
+    margin: 3px;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px white;
+}
+
+.h1, .navList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLists{
+    position: absolute;
+    right: 0%;
+}
+
+/* Hero section */
+
+.hero{
+    border: 2px solid black;
+    padding: 10px !important;
+    margin: 0%;
+}
+
+.heroRow{
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+
+.heroItems{
+    margin: 0px;
+    text-align: center;
+
+}
+
+/* photo */
+.imege{
+    margin: 10px;
+    border: 2px solid #008000;
+    border-radius: 100%;
+    box-shadow: -3px 3px black;
+}
+
+/* intro/desc */
+.desc{
+    border: 2px solid #008000;
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+
+/* body section */
+
+.body{
+    border: 2px solid black;
+    min-width: 100%;
+    padding: 0px;
+}
+
+.about-me, .work, .skills{
+    margin-bottom: 20px;
+    background-color: #e9ecef;
+    text-align: right;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.infoSubtitles{
+    border-right: 2px solid black;
+    font-size: 30px;
+    color: #008000 !important;
+}
+
+.infoAM, .info{
+    margin: 0px;
+    text-align: center;
+}
+
+
+.works{
+    border: 2px solid black;
+}
+
+.jakes{
+    background-image: url(../images/JakesEastery.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.shop{
+    background-image: url(../images/Furniture\ site.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.cali{
+    background-image: url(../images/hotel\ cali.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.tag{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #008000;
+    background-size: 20px;
+    text-shadow: -1px 1px white;
+}
+
+/* skills section */
+.skills{
+    border-right: 2px solid black;
+    color: #008000 !important;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    height: 300px;
+}
+
+
+
+/* -- Footer section, hover effect hyperlinks, buttons w box shadow upon hover. */
+
+.social {
+    display: inline !important;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-footer {
+    padding: .75rem 15.0rem;
+}

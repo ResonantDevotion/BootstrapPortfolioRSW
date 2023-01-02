@@ -5,38 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./css/style.css" ref="stylesheet" type="text/css">
+    <title>Rebeccas Bootstrap Portfolio</title>
+
+    <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Added CSS-->
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <!-- Nav bar, nav menu, applicable links that link to appropriate sections.-->
 
 <header>
+
     <!--Nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light grid">
+
         <!--nav menu-->
-        <a class="navbar-brand" href="#">Rebecca's portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="h1">
+            <a class="navbar-brand" href="#">
+                <h1>Rebecca's portfolio</h1>
+            </a>
+        </div>
+
+        <!--nav buttons and links-->
+        <div class="collapse navbar-collapse navLists" id="navbarNav navList">
             <ul class="navbar-nav">
-                <!--nav buttons and links-->
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About me</a>
+
+                <li class="nav-item">
+                    <a class="nav-link navList" href="#">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link navList" href="#">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link navList" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
+                    <a class="nav-link navList" href="#">Resume</a>
                 </li>
             </ul>
         </div>
@@ -44,61 +51,91 @@
 
     <!-- Hero section using BS Jumbotron, featuring photo, name and info -->
 
-    <section class="jumbotron jumbotron-fluid">
+    <section class="jumbotron jumbotron-fluid hero">
         <div class="container-width">
-            <div class="row">
+            <div class="row heroRow">
                 <!--photo-->
-                <div class="col" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="Image of me, rebecca wood">
+                <div class="col heroItems" style="width: 18rem;">
+                    <img src="./images/me cry.jpg" class="card-img-top imege" alt="Image of me, rebecca wood">
                 </div>
                 <!--name-->
-                <div class="col">
+                <div class="col heroItems">
                     <h2 class="card-text lead display-4">Rebecca Wood</h2>
                 </div>
                 <!--info/intro-->
-                <div class="col">
-                    <p class="card-text">Junior Front-End Web Developer</p>
+                <div class="col heroItems desc">
+                    <p class="card-text">Junior <br> Front-End Web Developer</p>
                 </div>
             </div>
         </div>
     </section>
 </header>
 
+<!-- Body section-->
+
 <body>
 
-    <section class="container">
+    <section class="container body">
 
-<!-- About me section in same row-->
+        <!-- About me section in same row-->
         <div class="row about-me">
-            <div class="col">About me.</div>
-            <div class="col">about meeeeeeee</div>
+            <div class="col-4 infoSubtitles">About me.</div>
+            <div class="col infoAM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non metus ut ligula iaculis placerat eget at eros. Donec id dolor facilisis, euismod lectus ac, tincidunt ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ante ante, laoreet vel finibus in, vestibulum sit amet mi. In lobortis pretium placerat. Praesent pulvinar arcu at odio vulputate lacinia. Fusce tempor ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tincidunt vitae sapien vel blandit. Duis est libero, egestas et elementum at, lobortis non justo. Morbi ac risus pellentesque, viverra elit quis, commodo felis. Pellentesque pharetra vel diam vitae dictum. Etiam at sagittis erat. Nunc sit amet vehicula nulla.</div>
         </div>
 
-<!-- Work section, grid, BS cards -->
+        <!-- Work section, grid, BS cards -->
         <div class="row work">
-            <div class="col">Work</div>
-            <div class="col container">
-                <div class="col row">
-                    <div class="col">CSS</div>
+            <div class="col-4 infoSubtitles">Work</div>
+            <div class="col container-fluid info">
+                <div class="col row ">
+                    <div class="col works jakes">
+                        <div class="tag">
+                            <h3>Flexbox with Jake's eatery</h3>
+                            <p>Mod 2.1.3 learning about flexbox</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col row">
-                    <div class="col">HTML</div>
-                    <div class="col">Bootstrap</div>
+                    <div class="col works shop">
+                        <div class="tag">
+                            <h3>Furniture shop</h3>
+                            <p>Mod 2.2.3 learning about CSS grids</p>
+                        </div>
+                    </div>
+                    <div class="col works cali">
+                        <div class="tag">
+                            <h3>Travel California</h3>
+                            <p>Mod 3.3.3 Using bootstrap 4, CSS, HTMl and figma to make a webpage</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col row">
-                    <div class="col">Portfolio</div>
-                    <div class="col">Challlenge</div>
+                    <div class="col works shop">
+                        <div class="tag">
+                            <h3>Portfolio</h3>
+                            <p>HTML/CSS portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col works cali">
+                        <div class="tag">
+                            <h3>Challenge x</h3>
+                            <p>Learning about xxx</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-<!-- Skills section, list skills expect to learn -->
+        <!-- Skills section, list skills expect to learn -->
         <div class="row skills">
-            <div class="col">Skill1</div>
-            <div class="col">Skill2</div>
-            <div class="w-100"></div>
-            <div class="col">Skill3</div>
-            <div class="col">Skill4</div>
+            <div class="col infoSubtitles">Skills I hope to learn</div>
+            <div class="col row">
+                <div class="col">Skill1</div>
+                <div class="col">Skill2</div>
+                <div class="w-100"></div>
+                <div class="col">Skill3</div>
+                <div class="col">Skill4</div>
+            </div>
         </div>
 
     </section>
@@ -110,7 +147,25 @@
 
 <!-- Footer section, hover effect hyperlinks, buttons w box shadow upon hover. -->
 
+<footer class="card-footer center">
+    <div class="social center">
+
+        <button type="button" class="btn btn-primary">Email</button>
+
+        <button type="button" class="btn btn-info">LinkedIn</button>
+
+        <button type="button" class="btn btn-danger">Instagram</button>
+
+    </div>
+</footer>
+
 </html>
 
 <!-- minimise media queries -->
-<!-- deploy to GH pages -->
+<!-- deployed to GH pages -->
+
+
+
+<!-- <a href="#"><i class="awesomeFont">Email</i></a>
+<a href="#"><i class="awesomeFont">LinkedIn</i></a>
+<a href="#"><i class="awesomeFont">Instagram</i></a> -->
