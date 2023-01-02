@@ -34,16 +34,16 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item">
-                    <a class="nav-link navList" href="#">About me</a>
+                    <a class="nav-link navList" href="#about-me">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navList" href="#">Work</a>
+                    <a class="nav-link navList" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navList" href="#">Contact</a>
+                    <a class="nav-link navList" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navList" href="#">Resume</a>
+                    <a class="nav-link navList" href="#resume">Resume</a>
                 </li>
             </ul>
         </div>
@@ -79,13 +79,21 @@
 
         <!-- About me section in same row-->
         <div class="row about-me">
-            <div class="col-4 infoSubtitles">About me.</div>
-            <div class="col infoAM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non metus ut ligula iaculis placerat eget at eros. Donec id dolor facilisis, euismod lectus ac, tincidunt ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ante ante, laoreet vel finibus in, vestibulum sit amet mi. In lobortis pretium placerat. Praesent pulvinar arcu at odio vulputate lacinia. Fusce tempor ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tincidunt vitae sapien vel blandit. Duis est libero, egestas et elementum at, lobortis non justo. Morbi ac risus pellentesque, viverra elit quis, commodo felis. Pellentesque pharetra vel diam vitae dictum. Etiam at sagittis erat. Nunc sit amet vehicula nulla.</div>
+            <div class="col-4 infoSubtitles" id="about-me">About me.</div>
+            <div class="col infoAM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non metus ut ligula
+                iaculis placerat eget at eros. Donec id dolor facilisis, euismod lectus ac, tincidunt ex. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ante ante, laoreet vel
+                finibus in, vestibulum sit amet mi. In lobortis pretium placerat. Praesent pulvinar arcu at odio
+                vulputate lacinia. Fusce tempor ultricies sagittis. Pellentesque habitant morbi tristique senectus et
+                netus et malesuada fames ac turpis egestas. Vestibulum tincidunt vitae sapien vel blandit. Duis est
+                libero, egestas et elementum at, lobortis non justo. Morbi ac risus pellentesque, viverra elit quis,
+                commodo felis. Pellentesque pharetra vel diam vitae dictum. Etiam at sagittis erat. Nunc sit amet
+                vehicula nulla.</div>
         </div>
 
         <!-- Work section, grid, BS cards -->
         <div class="row work">
-            <div class="col-4 infoSubtitles">Work</div>
+            <div class="col-4 infoSubtitles" id="work">Work</div>
             <div class="col container-fluid info">
                 <div class="col row ">
                     <div class="col works jakes">
@@ -111,10 +119,12 @@
                 </div>
                 <div class="col row">
                     <div class="col works shop">
-                        <div class="tag">
-                            <h3>Portfolio</h3>
-                            <p>HTML/CSS portfolio</p>
-                        </div>
+                        <a href="https://resonantdevotion.github.io/MyFEWDPortfolioRSW/">
+                            <div class="tag">
+                                <h3>Portfolio</h3>
+                                <p>HTML/CSS portfolio</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="col works cali">
                         <div class="tag">
@@ -127,7 +137,7 @@
         </div>
 
         <!-- Skills section, list skills expect to learn -->
-        <div class="row skills">
+        <div class="row skills" id="resume">
             <div class="col infoSubtitles">Skills I hope to learn</div>
             <div class="col row">
                 <div class="col">Skill1</div>
@@ -147,7 +157,7 @@
 
 <!-- Footer section, hover effect hyperlinks, buttons w box shadow upon hover. -->
 
-<footer class="card-footer center">
+<footer class="card-footer center" id="Contact">
     <div class="social center">
 
         <button type="button" class="btn btn-primary">Email</button>
