@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rebeccas Bootstrap Portfolio</title>
 
-<!--Bootstrap CSS-->
+    <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<!--Added CSS-->
+    <!--Added CSS-->
     <link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -19,17 +19,17 @@
 
 <header>
 
-<!--Nav-->
+    <!--Nav-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light grid">
 
-<!--nav menu-->
+        <!--nav menu-->
         <div class="h1">
             <a class="navbar-brand" href="#">
                 <h1>Rebecca's portfolio</h1>
             </a>
         </div>
 
-<!--nav buttons and links-->
+        <!--nav buttons and links-->
         <div class="collapse navbar-collapse navLists" id="navbarNav navList">
             <ul class="navbar-nav">
 
@@ -63,8 +63,8 @@
                     <h2 class="card-text lead display-4">Rebecca Wood</h2>
                 </div>
                 <!--info/intro-->
-                <div class="col heroItems">
-                    <p class="card-text">Junior Front-End Web Developer</p>
+                <div class="col heroItems desc">
+                    <p class="card-text">Junior <br> Front-End Web Developer</p>
                 </div>
             </div>
         </div>
@@ -72,56 +72,70 @@
 </header>
 
 <!-- Body section-->
+
 <body>
 
     <section class="container body">
 
-<!-- About me section in same row-->
+        <!-- About me section in same row-->
         <div class="row about-me">
-            <div class="col-2 infoSubtitles">About me.</div>
-            <div class="col-3 info">about meeeeeeee</div>
+            <div class="col-4 infoSubtitles">About me.</div>
+            <div class="col infoAM">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non metus ut ligula iaculis placerat eget at eros. Donec id dolor facilisis, euismod lectus ac, tincidunt ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed ante ante, laoreet vel finibus in, vestibulum sit amet mi. In lobortis pretium placerat. Praesent pulvinar arcu at odio vulputate lacinia. Fusce tempor ultricies sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tincidunt vitae sapien vel blandit. Duis est libero, egestas et elementum at, lobortis non justo. Morbi ac risus pellentesque, viverra elit quis, commodo felis. Pellentesque pharetra vel diam vitae dictum. Etiam at sagittis erat. Nunc sit amet vehicula nulla.</div>
         </div>
 
-<!-- Work section, grid, BS cards -->
+        <!-- Work section, grid, BS cards -->
         <div class="row work">
-            <div class="col-2 infoSubtitles">Work</div>
-            <div class="col-3 container info">
-                <div class="col row">
+            <div class="col-4 infoSubtitles">Work</div>
+            <div class="col container-fluid info">
+                <div class="col row ">
                     <div class="col works jakes">
-                        <h3>Flexbox with Jake's eatery</h3>
-                        <p>Mod 2.1.3 learning about flexbox</p>
+                        <div class="tag">
+                            <h3>Flexbox with Jake's eatery</h3>
+                            <p>Mod 2.1.3 learning about flexbox</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col row">
-                    <div class="col works">
-                        <h3>Furniture shop</h3>
-                        <p>Mod 2.2.3 learning about CSS grids</p>
+                    <div class="col works shop">
+                        <div class="tag">
+                            <h3>Furniture shop</h3>
+                            <p>Mod 2.2.3 learning about CSS grids</p>
+                        </div>
                     </div>
-                    <div class="col works">
-                        <h3>Travel California</h3>
-                        <p>Mod 3.3.3 Using bootstrap 4, CSS, HTMl and figma to make a webpage</p>
+                    <div class="col works cali">
+                        <div class="tag">
+                            <h3>Travel California</h3>
+                            <p>Mod 3.3.3 Using bootstrap 4, CSS, HTMl and figma to make a webpage</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col row">
-                    <div class="col works">
-                        <h3>Portfolio</h3>
-                        <p>HTML/CSS portfolio</p>
+                    <div class="col works shop">
+                        <div class="tag">
+                            <h3>Portfolio</h3>
+                            <p>HTML/CSS portfolio</p>
+                        </div>
                     </div>
-                    <div class="col works">
-                        <h3>Challenge x</h3>
-                        <p>Learning about xxx</p>
+                    <div class="col works cali">
+                        <div class="tag">
+                            <h3>Challenge x</h3>
+                            <p>Learning about xxx</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-<!-- Skills section, list skills expect to learn -->
+        <!-- Skills section, list skills expect to learn -->
         <div class="row skills">
-            <div class="col">Skill1</div>
-            <div class="col">Skill2</div>
-            <div class="w-100"></div>
-            <div class="col">Skill3</div>
-            <div class="col">Skill4</div>
+            <div class="col infoSubtitles">Skills I hope to learn</div>
+            <div class="col row">
+                <div class="col">Skill1</div>
+                <div class="col">Skill2</div>
+                <div class="w-100"></div>
+                <div class="col">Skill3</div>
+                <div class="col">Skill4</div>
+            </div>
         </div>
 
     </section>
@@ -135,13 +149,13 @@
 
 <footer class="card-footer center">
     <div class="social center">
-      
-                <button type="button" class="btn btn-primary">Email</button>
-         
-                <button type="button" class="btn btn-info">LinkedIn</button>
-         
-                <button type="button" class="btn btn-danger">Instagram</button>
-          
+
+        <button type="button" class="btn btn-primary">Email</button>
+
+        <button type="button" class="btn btn-info">LinkedIn</button>
+
+        <button type="button" class="btn btn-danger">Instagram</button>
+
     </div>
 </footer>
 
