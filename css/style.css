@@ -1,4 +1,12 @@
+html, body{
+    width: 100%;
+}
+
 /* Nav */
+header{
+    margin: 0px;
+}
+
 .grid {
     display: flex;
     justify-content: space-between;
@@ -49,6 +57,7 @@ h1 {
 .hero{
     border: 2px solid black;
     padding: 10px !important;
+    margin: 0%;
 }
 
 .heroRow{
@@ -72,19 +81,40 @@ h1 {
 
 /* body section */
 
+.body{
+    border: 2px solid black;
+    min-width: 100%;
+    padding: 0px;
+}
+
 .about-me, .work{
-    margin: 20px;
-    width: 110%;
+    margin-bottom: 20px;
     background-color: #e9ecef;
+    text-align: right;
+    padding: 10px;
 }
 
 .infoSubtitles{
     border-right: 2px solid black;
     font-size: 20px;
-    width: 20px !important;
 }
 
+.info{
+    margin: 0px;
+    min-width: 80%;
+    text-align: center;
+}
 
+.works{
+    border: 2px solid black;
+}
+
+.jakes{
+    background-image: url(../images/JakesEastery.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* -- Footer section, hover effect hyperlinks, buttons w box shadow upon hover. */
 
