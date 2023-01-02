@@ -1,0 +1,99 @@
+/* Nav */
+.grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey !important;
+}
+
+.h1 {
+    border: 2px solid black;
+    position: relative;
+    left: 0pc;
+}
+
+h1 {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    color: #008000;
+    text-shadow: -1px 1px 4px white;
+}
+
+#navList{
+    border: 2px solid black;
+}
+
+.navList{
+    color: #008000 !important;
+    border-bottom: 2px solid #008000;
+    margin: 3px;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px white;
+}
+
+.h1, .navList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLists{
+    position: absolute;
+    right: 0%;
+}
+
+/* Hero section */
+
+.hero{
+    border: 2px solid black;
+    padding: 10px !important;
+}
+
+.heroRow{
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+
+.heroItems{
+    margin: 0px;
+    text-align: center;
+
+}
+
+/* photo */
+.imege{
+    margin: 10px;
+    border: 2px solid #008000;
+    box-shadow: -3px 3px black;
+}
+
+/* body section */
+
+.about-me, .work{
+    margin: 20px;
+    width: 110%;
+    background-color: #e9ecef;
+}
+
+.infoSubtitles{
+    border-right: 2px solid black;
+    font-size: 20px;
+    width: 20px !important;
+}
+
+
+
+/* -- Footer section, hover effect hyperlinks, buttons w box shadow upon hover. */
+
+.social {
+    display: inline !important;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-footer {
+    padding: .75rem 15.0rem;
+}
